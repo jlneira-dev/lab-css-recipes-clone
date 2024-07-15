@@ -62,13 +62,15 @@ img {
 
 .ingredients {
   height: 40vh;
-  margin-left: 10vh;
+  margin-left: 10vh; 
 }
 
 .ingredients article {
   text-align: center;
-  margin: auto;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10vh;
 }
  
 ul {
